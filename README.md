@@ -1,11 +1,11 @@
 ## Overview 
 The project implements Newton-Raphson method in complex plane to visualize the 
-region convergence for the polynomial $ f(z) = z^4 - 1 $ 
+region convergence for the polynomial $f(z) = z^4 - 1$ 
 The program generates a color-coded image showing how different roots. 
 
 ## Problem Description 
 Newton's method is a root finding algorithm can exhibit sensitive dependence on
-initial condition when applied in the complex plane. For $ f(z) = z^4 - 1 $,
+initial condition when applied in the complex plane. For $f(z) = z^4 - 1$,
 there are four roots: 1, -1 , i, -i
 
 the objective is to classify convergence behavior across a 2D region and visualize
