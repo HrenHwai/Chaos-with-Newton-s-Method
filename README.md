@@ -15,9 +15,9 @@ the resulting structure.
 - each pixel in an n x n grid is mapped to a complex number within in a square of side
   centered at the origin.
 - Newton's method is applied iteratively:
-  \\
-  $$z_{k+1} = z_k - \frac{z_k^4 - 1}{4 z_k^3}$$
-  \\
+
+  $$\\ z_{k+1} = z_k - \frac{z_k^4 - 1}{4 z_k^3} \\$$
+ 
 - iteration stop when the point converges to one of the roots within a fixed tolerance,
   or a maximum of 100 iterations is reached.
 
